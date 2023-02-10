@@ -1,0 +1,81 @@
+* {
+  font-family: Cairo, sans-serif;
+  font-size: 22px !important;
+}
+html {
+  overflow-x: hidden;
+}
+@media (min-width: 992px) {
+  * {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  * {
+    font-size: 18px;
+  }
+}
+.sidebar {
+  background: #28403D;
+  border-radius: 0px 0px 5px 5px;
+}
+.col-2 {
+  width: 14% !important;
+  height: fit-content;
+  padding-top: 10px;
+  text-align: center;
+
+}
+.list-sidebar {
+  list-style: none;
+  padding: 5px;
+
+}
+.sidebar li:first-child {
+  padding-bottom: 20px !important;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.sidebar li:last-child {
+  padding-top: 20px !important;
+}
+.sidebar li a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar li a:hover {
+  color: black;
+}
+
+
+@media (max-width: 992px) {
+  .col-2 {
+    width: 100% !important;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .sidebar li:first-child {
+    padding-bottom: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .col-2 {
+    width: 100% !important;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .sidebar li:first-child {
+    padding-bottom: 30px !important;
+  }
+}
+.btn-delete{
+  margin-right: 5px;
+}
+.btn-all{
+  font-size: 18px !important;
+  padding: 8px !important;
+}
+.btn-add{
+  margin: 10px 0px;
+}
